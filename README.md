@@ -3,6 +3,7 @@
 A fun, interactive Hangman game with animated cartoon characters, sound effects, and difficulty levels — built using **Flask**, **HTML/CSS/JavaScript**, and **Bootstrap**!
 
 ![Hangman UI](./static/images/screenshot.png)
+![Hangman UI](./static/images/screenshot2.png)
 
 ---
 
