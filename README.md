@@ -4,6 +4,7 @@ A fun, interactive Hangman game with animated cartoon characters, sound effects,
 
 ![Hangman UI](./static/images/screenshot.png)
 ![Hangman UI](./static/images/screenshot2.png)
+![Hangman UI](./static/images/screenshot3.png)
 
 ---
 
