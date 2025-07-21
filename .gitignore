@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+
+# Bytecode and cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store
+
+# Flask SQLite DB (optional)
+*.sqlite3
