@@ -1,0 +1,91 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #90caf9;
+  animation: popIn 0.7s ease-in;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #ffcc80;
+  margin-bottom: 1rem;
+}
+
+.display-word {
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+  color: #ffffff;
+  margin: 1.5rem 0;
+  font-weight: bold;
+  animation: pulse 1s infinite alternate;
+}
+
+.guess-form input {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: 60px;
+  text-align: center;
+  border: 2px solid #64b5f6;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 10px;
+  background-color: #37474f;
+  color: #f0f0f0;
+}
+
+.guess-form button {
+  font-size: 1.2rem;
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.guess-form button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.guessed-letters {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #b0bec5;
+}
+
+.lives-left {
+  font-size: 1.2rem;
+  color: #e91e63;
+  margin-bottom: 1rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  from { transform: scale(1); color: #333; }
+  to { transform: scale(1.1); color: #ff5722; }
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
